@@ -1,0 +1,31 @@
+.gradle/
+.gradle-home/
+.idea/
+build/
+local.properties
+*.iml
+captures/
+tmp/
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.local.php
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Firebase credentials
+app/google-services.json
+backend/php-api/api/config/firebase-service-account.local.json
+
+# Runtime-generated backend files
+backend/php-api/uploads/*
+!backend/php-api/uploads/.gitkeep
+
+# Database backups can contain personal and transactional data
+backend/mysql/*dump*.sql
